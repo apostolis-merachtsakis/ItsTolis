@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<hmtl>
+	<head>
+		<title>It's Tolis Contact</title>
+		<link rel="stylesheet" href="Sources/CSS/contact_style.css" type="text/css">
+		<link rel="stylesheet" href="Sources/CSS/main.css" type="text/css">
+		<link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Redressed&display=swap" rel="stylesheet">
+	</head>
+	<body>
+		<h1>It's Tolis</h1>
+		<ul class="nav">
+			<li><a href="index.html">Home</a></li>
+			<li><a href="contact.html" class="active">Contact</a></li>
+			<li><a href="portfolio.hmtl">Portfolio</a></li>
+			<button><a href="DarkSide.hmtl">Slide</a></button>
+		</ul>
+		<form method="POST" action="mail" class="container">
+			<label for="name">First Name</label>
+			<input type="text" name="name" value="Example: Joe" required>
+			<label for="lname">Last name</label>
+			<input type="text" name="lname" required>
+			<label for="email">Email</label>
+			<input name="mail" required><br><br>
+			<label for="reason">For what reason are you contacting me?</label><br><br>Put a Review
+			<input type="checkbox" name="reason" value="review" class="checkbox">Send a job offer<br>
+			<input type="checkbox" name="reason" value="job offer" class="checkbox"><br><br>
+			<label for="commend">Tell me what are you think</label><br><br>
+			<input type="text" name="commend" class="commend"><br><br>
+			<input type="submit" value="Send!" class="btn">
+		</form>
+	</body>
+</html>
